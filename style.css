@@ -1,0 +1,174 @@
+* {margin: 0;
+padding: 0;}
+
+
+.container {
+    position: relative;
+    background-color: #000;
+}
+
+.container::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.4;
+    background:       url('back.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.first{
+  position: relative;
+  width: 100%;
+  height: 640px;
+}
+
+hr {border-color:#2E2E30;
+border-width: 10px;}
+
+
+
+.first ul a {text-decoration: none;
+	padding: 8px;
+	background-color: red;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	width: 50px;
+	border-radius: 7%;
+	padding-right: 15px;
+	padding-left: 15px;
+
+	margin-left: 880px;
+	; 
+}
+
+.first ul{display: inline;}
+
+.second {position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; }
+
+.second ul li{text-decoration: none;
+list-style: none;
+text-align: center;
+}
+
+.second ul li {font-family: 'Roboto Condensed', sans-serif;
+						}
+
+
+.sec-second{position: absolute;
+display: flex;
+justify-content: space-between;
+background-color: black;
+width: 100%;
+}	
+
+.sec-second p{color: white;
+;}							
+
+.sec-second p span {font-size: 36px;
+font-style: bold;}
+
+#n{margin-top: 375px;
+	display: flex;
+	justify-content: space-around;
+    background-color: black;
+	width: 100%;}
+
+.sec-t {width: 100%;}
+
+
+.sec-t #n span {font-family: Montserrat;
+ font-size: 40px;}
+
+
+ .sec-t #n p{font-size: 23px;
+ font-family: Montserrat;}
+
+
+ #m {display: flex;
+ 	justify-content: space-around;}
+
+ .sec-2{ background-color: black;}
+
+ .sec-2 #m p{color: white;}
+
+ .sec-2 #m span {font-family: Montserrat;
+  	font-size: 40px;}
+
+.sec-2 #m p{font-size: 23px;
+ 	font-family: Montserrat;}
+
+
+ .accordion {
+  background-color:#2E2E30;
+  color: white;
+  cursor: pointer;
+  padding: 22px;
+  width: 75%;
+  margin-left: 120px;
+  border: 2px solid black;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+
+}
+
+.active, .accordion:hover {
+  background-color:#2E2E30;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 15px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  margin: 00;
+  padding: 30px 100px;
+  background-color:#2E2E30;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+#a {padding: 50px;
+margin-top: -5px;}
+
+.fre {background-color: black;}
+
+#b {margin-left: 160px;
+margin-bottom: 0px;
+margin-top: 10px;}
+
+.last {background-color: black;
+
+color: white;
+text-align: center;
+margin-top: 0px;
+}
+
+#t {margin-top: -30px;
+padding: 70px; font-family: Arial;
+font-size: 14px;
+margin-left: -30px;}
+
+table tr td{padding: 10px;
+padding-left: 60px;
+text-align: left;}
